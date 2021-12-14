@@ -18,14 +18,15 @@ width:100px;*/
 font-family: 'Brush Script MT', cursive;
 vertical-align: center;
 text-align: left;
-font-size: 10px;
+font-size: 5px;
 min-width:100px;
 }
 
 .comentarioPanel div{
+ white-space: nowrap;
 max-height:30px;
 vertical-align:center;
-overflow:hidden;
+overflow-x:scroll;
 }
 
 .buttonPanel1,.buttonPanel2,.buttonPanel3{
